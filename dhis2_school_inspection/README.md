@@ -1,8 +1,5 @@
 # School inspection
 
-Inspection page: multipage inspection form
-
-
 
 This solution for school inspections is a multipage form. 
 
