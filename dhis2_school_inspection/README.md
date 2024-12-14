@@ -1,10 +1,10 @@
-# IN5320_Group11_Project
+# School inspection
 
 Inspection page: multipage inspection form
 
 
 
-Our solution for school inspections is a multipage form. 
+This solution for school inspections is a multipage form. 
 
 
 
@@ -28,7 +28,7 @@ From a technical perspective:
 
 
 
-Our submission of the form uses DHIS2 useDataQuery to POST/mutate the data into the DHIS2 Instance. We did hardcode the SchoolInspection program id into the solution to make it easier for us, along with the programStage.
+The submission of the form uses DHIS2 useDataQuery to POST/mutate the data into the DHIS2 Instance. We did hardcode the SchoolInspection program id into the solution to make it easier for us, along with the programStage.
 
 
 
@@ -76,11 +76,10 @@ Create new school is available in the main menu as the last menu item to choose 
 
 
 
-6. We tried to implement the image uploading solution by using the useDataMutation but it was unfortunately something we could not accomplish.
 
 
 
-We implemented the code for validating the name so we dont get duplicates of school names - but we did not have time to merge it into our git repository. 
+It is implemented code for validating the name so we dont get duplicates of school names
 
 
 
