@@ -1,0 +1,325 @@
+/* General Styles */
+.inspection-form {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.col-sm-12.mb-3:nth-child(even) {
+  background-color: #fdfcfb;
+}
+
+.col-sm-12.mb-3:first-of-type {
+  border-top: 1px solid rgb(179, 181, 179);
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  flex-direction: column;
+}
+
+#form-row-radio {
+  /* attempt at adjusting one or all rows*/
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  flex-direction: column;
+}
+*/ .form-row-radio {
+  /* attempt at adjusting one or all rows*/
+  display: flex;
+  align-items: center;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  justify-content: flex-start; /* Align items to the start */
+  gap: 80px; /* Adjust the gap value*/
+}
+
+.form-row label {
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  color: #333;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.form-row-radio-row {
+  cursor: pointer;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  display: flex;
+  align-items: horizontal;
+  margin-left: 270px; /* Remove default margin  370 */
+  padding: 5; /* Remove default padding */
+}
+
+.form-row-radio-row div {
+  margin-left: 15px; /* Distance between Yes and No */
+}
+
+.form-icon {
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+
+.form-row input {
+  width: 440px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  color: #333;
+}
+
+.form-row input[type="date"] {
+  font-family: inherit;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.form-row input[type="date"] {
+  font-family: inherit;
+  width: 440px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0653a4;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.next-button {
+  width: 90px;
+  padding: 10px;
+  border-width: 1px;
+  border: solid #0653a4;
+  border-radius: 4px;
+  background-color: #0653a4;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.next-button:hover {
+  background-color: #0056b3;
+}
+
+#next-button-firstpage {
+  width: 90px;
+  padding: 10px;
+  border-width: 1px;
+  border: solid #0653a4;
+  border-radius: 4px;
+  background-color: #0653a4;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 90%;
+}
+
+#next-button:hover {
+  background-color: #0056b3;
+}
+
+.previous-button {
+  width: 90px;
+  padding: 10px;
+  border: solid #a0adba;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: white;
+  color: #212934;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 80%;
+}
+
+.previous-button:hover {
+  background-color: white;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .inspection-form {
+    padding: 40px;
+  }
+
+  .form-row {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    flex-direction: column;
+  }
+  .form-row-radio {
+    /* attempt at adjusting one or all rows*/
+    display: flex;
+    align-items: center;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    justify-content: space-between; /* Align items to the start */
+    gap: 80px; /* Adjust the gap value*/
+  }
+
+  .form-row-radio input[type="radio"] {
+    cursor: pointer;
+    margin-right: 5px; /* Adjust the margin value as needed */
+  }
+
+  .form-row-radio-row {
+    cursor: pointer;
+    margin-top: 9px;
+    accent-color: #00a940;
+    margin-bottom: 9px;
+    display: flex;
+    align-items: horizontal;
+    margin-left: 270px; /* Remove default margin  370 */
+    padding: 20; /* Remove default padding */
+  }
+
+  .form-row-radio-row div {
+    margin-left: 15px; /* Distance between Yes and No */
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .form-row label {
+    width: 45%; /* Adjust label width for two-column layout */
+    margin-bottom: 0;
+  }
+
+  .form-row input {
+    width: 50%; /* Adjust input width for two-column layout */
+  }
+
+  .form-row input[type="date"] {
+    font-family: inherit;
+    font-size: 0.9em;
+    color: #555;
+  }
+
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0653a4;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+
+  .next-button {
+    width: 90px;
+    padding: 10px;
+    border-width: 1px;
+    border: solid #0653a4;
+    border-radius: 4px;
+    background-color: #0653a4;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .next-button:hover {
+    background-color: #0056b3;
+  }
+
+  #next-button-firstpage {
+    width: 90px;
+    padding: 10px;
+    border-width: 1px;
+    border: solid #0653a4;
+    border-radius: 4px;
+    background-color: #0653a4;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 90%;
+  }
+
+  #next-button:hover {
+    background-color: #0056b3;
+  }
+
+  .previous-button {
+    width: 90px;
+    padding: 10px;
+    border: solid #a0adba;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: white;
+    color: #212934;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 80%;
+  }
+
+  .previous-button:hover {
+    background-color: white;
+  }
+
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .inspection-form {
+      padding: 40px;
+    }
+
+    .form-row {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .form-row label {
+      width: 45%; /* Adjust label width for two-column layout */
+      margin-bottom: 0;
+    }
+
+    .form-row input {
+      width: 50%; /* Adjust input width for two-column layout */
+    }
+    /*
+    .form-row-radio{
+      flex-direction: row;
+      justify-content: center;
+    }
+    .form-row-radio input {
+      width: 100%; 
+    }
+    */
+  }
+}

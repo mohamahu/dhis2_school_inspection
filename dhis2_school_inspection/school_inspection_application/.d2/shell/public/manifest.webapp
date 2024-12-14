@@ -1,0 +1,21 @@
+{
+  "appType": "APP",
+  "short_name": "IN5320ProjectG11",
+  "name": "IN5320ProjectG11",
+  "description": "",
+  "version": "1.0.0",
+  "launch_path": "index.html",
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": "*"
+    }
+  },
+  "icons": {
+    "48": "dhis2-app-icon.png"
+  },
+  "manifest_generated_at": "Mon Nov 25 2024 23:02:50 GMT+0100 (sentraleuropeisk normaltid)",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}

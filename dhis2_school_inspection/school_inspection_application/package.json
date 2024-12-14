@@ -1,0 +1,26 @@
+{
+  "name": "IN5320ProjectG11",
+  "version": "1.0.0",
+  "description": "",
+  "license": "BSD-3-Clause",
+  "private": true,
+  "scripts": {
+    "build": "d2-app-scripts build",
+    "start": "d2-app-scripts start",
+    "test": "d2-app-scripts test",
+    "deploy": "d2-app-scripts deploy"
+  },
+  "devDependencies": {
+    "@dhis2/cli-app-scripts": "^11.7.4"
+  },
+  "dependencies": {
+    "@dhis2/analytics": "^26.9.0",
+    "@dhis2/app-runtime": "^3.11.2",
+    "IN5320ProjectG11": "file:",
+    "acorn": "^8.14.0",
+    "chart.js": "^4.4.6",
+    "react-chartjs-2": "^5.2.0",
+    "react-hook-form": "^7.53.1",
+    "react-router-dom": "^6.27.0"
+  }
+}

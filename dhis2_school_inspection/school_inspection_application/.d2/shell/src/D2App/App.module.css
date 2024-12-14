@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+.left {
+  width: 200px;
+  min-height: 100vh;
+  padding-top: 20px;
+  background: #ffffff;
+}
+
+.right {
+  flex-grow: 1;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.stordiv {
+  display: flex;
+}
+
+.datatable {
+  flex-grow: 1;
+}
+
+.menu {
+  margin: 0.9px;
+  flex-grow: 1;
+}
+
+.divider {
+  border-bottom: 1px solid rgb(232, 237, 242);
+}
+
+.menutitle {
+  padding-right: 60px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-all;
+}

@@ -1,0 +1,12 @@
+{
+  "type": "app",
+  "baseUrl": "https://research.im.dhis2.org/in5320g11/",
+  "authorization": "basic",
+  "name": "IN5320ProjectG11",
+  "version": "1.0.0",
+  "description": "",
+  "title": "IN5320ProjectG11",
+  "entryPoints": {
+    "app": "index.html"
+  }
+}
