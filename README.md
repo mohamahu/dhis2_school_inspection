@@ -26,4 +26,4 @@ Features:
 
 
 How to run the application:
-In order to run this application you need go through authentication in the dhis2 platfrom. You can send me a request on the following mail: mohamahu@uio.no 
+In order to run this application you need go through authentication in the dhis2 platform. You can send me a request on the following mail: mohamahu@uio.no 
