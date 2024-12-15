@@ -1,4 +1,3 @@
-# School inspection
 
 
 Start the program:
@@ -23,6 +22,7 @@ yarn start
 npx dhis-portal --target=https://research.im.dhis2.org/in5320g11
 
 
+# School inspection
 
 
 This solution for school inspections is a multipage form. 
