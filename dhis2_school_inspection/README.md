@@ -1,6 +1,30 @@
 # School inspection
 
 
+Start the program:
+
+Step 1: run: npm install chart.js react-chartjs-2
+
+Step 2 : run "yarn global add dhis-portal"
+step 3 : run "npx dhis-portal --target=https://research.im.dhis2.org/in5320g11/"
+
+
+Step 4:
+In the following folder:
+ ~/.../IN5320_Group11_Project/IN5320_Group11_Project/IN5320ProjectG11
+
+In two different terminals run:
+
+
+yarn start
+
+
+
+npx dhis-portal --target=https://research.im.dhis2.org/in5320g11
+
+
+
+
 This solution for school inspections is a multipage form. 
 
 
